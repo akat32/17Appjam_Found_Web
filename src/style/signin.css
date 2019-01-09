@@ -1,0 +1,90 @@
+.signin {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6675FF;
+}
+
+.signin .logoBox {
+    width: 100vw;
+    height: 32vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-align-items: flex-end;
+}
+.signin .logoImg {
+    width: 20vh;
+    height: 20vh;
+    background-image: url('../assets/AppJam17th/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.signin .userInfo {
+    margin-top: 5vh;
+}
+.signin .innerBox {
+    position: relative;
+    width: 60vw;
+    height: 5vh;
+    margin: auto;
+    margin-top: 1vh;
+}
+.signin .inputID, .signin .inputPW {
+    position: absolute;
+    width: 51vw;
+    height: 4vh;
+    font-size: 2.3vh;
+    color: #fff;
+    background-color: #6675FF;
+    border: 0;
+    border-bottom: solid 0.3vh #fff;
+    padding-left: 5vh;
+}
+.signin .userImg, .signin .lockImg{
+    width: 3vh;
+    height: 3vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    top: 0.5vh;
+    left: 1vh;
+}
+.signin .userImg {
+    background-image: url('../assets/AppJam17th/user.png');
+}
+.signin .lockImg {
+    background-image: url('../assets/AppJam17th/pw.png');
+}
+.signin .signinBtn {
+    width: 60vw;
+    height: 5vh;
+    margin-left:20vw;
+    margin-top: 4.5vh;
+    background-color: #6675FF;
+    border: solid 0.3vh #fff;
+    color: #fff;
+    font-size: 2.4vh;
+    line-height: 4.5vh;
+    border-radius: 0.2em;
+}
+.signin .findIDPW {
+    margin: 0;
+    color:#fff;
+    font-size: 1.9vh;
+    text-align: center;
+    margin-top: 2vh;
+}
+.signin .notUser {
+    margin-top: 31vh;
+    color: #fff;
+    font-size: 1.9vh;
+    text-align: center;
+}
+.signin .goSignup {    
+    padding: 0.3vh;
+    border: solid 0.1vh #fff;
+    border-radius: 0.3em;
+    font-size: 1.5vh;
+}

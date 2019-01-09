@@ -1,0 +1,48 @@
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
+.bottom .bottomBar {
+    position: relative;
+    width: 100vw;
+    height: 8vh;
+}
+.bottom .tapBar {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+}
+.bottom .ideaTap, .bottom .projectTap {
+    width: 49.9vw;
+    height: 8vh;
+    line-height: 8vh;
+    text-align: center;
+    font-size: 2.3vh;
+}
+.bottom .ideaTap { border-right: solid #C4C4C4 0.1vw; }
+.bottom .projectTap { width: 50vw; }
+.bottom .addBtn {
+    position: absolute; 
+    height: 8.5vh;
+    width: 8.5vh;
+    background-color: #6675FF;
+    border-radius: 50%;
+    bottom: 2vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+.bottom .plusImg {
+    background-image: url('../assets/AppJam17th/plus.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4.5vh;
+    width: 4.5vh;
+}

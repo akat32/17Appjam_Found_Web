@@ -1,0 +1,71 @@
+.top .searchBar {
+    width: 100vw;
+    height: 8vh;
+    background-color: #6675FF;
+    position: relative;
+}
+.top .searchIndex {
+    position: absolute;
+    border: solid 0.3vh #fff;
+    background-color: #6675FF;
+    width: 76vw;
+    height: 4vh;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 12vw;
+    color: #fff;
+    font-size: 2.5vh;
+    padding-left: 4.5vh;
+}
+
+.top .searchIcon {
+    position: absolute;
+    background-image: url('../assets/AppJam17th/search.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2.7vh;
+    height: 2.7vh;
+    left: 14vw;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 3;
+}
+.top .hamburgerBox {
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 2.3vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.top .categoryBar {
+
+}
+.top .categoryList {
+    border: 0;
+    border-bottom: 0.3vh #C4C4C4 solid;
+    height: 4vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    overflow-y: hidden;
+    list-style: none;
+}
+.top .categoryList > li {
+    height: 4vh;
+    text-align: center;
+    font-size: 1.9vh;
+    line-height: 4vh;
+    width: 20vw;
+}
+
+.top {
+    position: fixed;
+}
